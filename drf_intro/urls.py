@@ -26,4 +26,5 @@ urlpatterns = [
                   path('user-profile/', include('api_file_upload.urls')),
                   path('api-ecommerce/v1/', include('api_ecommerce.urls')),
                   path('api-notes/v1/', include('api_notes.urls')),
+                  path('api-profile/v1/', include('api_profile.urls')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

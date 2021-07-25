@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'api_file_upload.apps.ApiFileUploadConfig',
     'api_ecommerce.apps.ApiEcommerceConfig',
     'api_notes.apps.ApiNotesConfig',
+    'api_profile.apps.ApiProfileConfig',
     #'api_user_auth.apps.ApiUserAuthConfig',
 ]
 
@@ -126,7 +127,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
